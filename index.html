@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
@@ -11,20 +11,71 @@
             background-size: cover;
         }
 
-        table,
-        tr,
-        td,
-        th {
+        .ilktablo table {
+            border-collapse: collapse;
+            border: 3px solid purple;
+            text-align: center;
+        }
+
+        .ilktablo tr {
+            border-collapse: collapse;
+            border: 3px solid purple;
+            text-align: center;
+        }
+
+        .ilktablo td {
             border: 3px solid purple;
             border-collapse: collapse;
             text-align: center;
         }
-        th{font-size: 18px;}
+
+        .ilktablo th {
+            border: 3px solid purple;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th {
+            font-size: 18px;
+        }
+
+        th {
+            font-size: 18px;
+        }
+
+        #menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 30px;
+
+        }
+
+        #menu li {
+            padding-left: 10%;
+            float: left;
+            font-size: 16px;
+            font-style: oblique;
+        }
+
+        .sayililar li {
+            text-align: left;
+        }
     </style>
 
 </head>
 
 <body>
+    <br>
+    <ul id="menu">
+        <a href="">
+            <li>Ana Sayfa</li>
+        </a>
+        <li id="burasi">Kategoriler</li>
+        <li>Biz Kimiz</li>
+        <li>İletişim</li>
+    </ul>
     <p style="color: gray;
 background-color: rgb(10,10,10);"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero autem voluptatibus
         ipsam unde, dolor maiores veritatis reprehenderit deleniti minus illo amet dicta culpa aperiam magni? Voluptatem
@@ -42,56 +93,133 @@ background-color: rgb(10,10,10);"> Lorem ipsum dolor sit, amet consectetur adipi
     <br>
     <br>
 
-    <table style="width: 100%;">
-        <caption style="font-size: 32px;color: green;">Kripto Paralar</caption>
-        <tr>
-            <th style="background-color: purple;"></th>
-            <th>birinci</th>
-            <th colspan="2
+    <div class="ilktablo">
+        <table style="width: 100%;">
+            <caption style="font-size: 32px;color: green;">Kripto Paralar</caption>
+            <tr>
+                <th style="background-color: purple;"></th>
+                <th>birinci</th>
+                <th colspan="2
             ">ikinci ve üçüncü</th>
-            
-            <th>dördüncü</th>
+
+                <th>dördüncü</th>
 
 
 
-        </tr>
-        <tr>
-            <th>isim1 </th>
-            <td>1,1 </td>
-            <td>1,2 </td>
-            <td>1,3 </td>
-            <td>1,4 </td>
-        </tr>
-        <tr>
-            <th>isim2 </th>
-            <td>2,1 </td>
-            <td>2,2 </td>
-            <td>2,3 </td>
-            <td>2,4 </td>
-        </tr>
-        <tr>
-            <th>isim3 </th>
-            <td>3,1 </td>
-            <td>3,2 </td>
-            <td>3,3 </td>
-            <td>3,4 </td>
-        </tr>
-        <tr>
-            <th>isim4 </th>
-            <td>4,1 </td>
-            <td>4,2 </td>
-            <td>4,3 </td>
-            <td>4,4 </td>
-        </tr>
-        <tr>
-            <th>isim5 </th>
-            <td>5,1 </td>
-            <td>5,2 </td>
-            <td>5,3 </td>
-            <td>5,4 </td>
-        </tr>
+            </tr>
+            <tr>
+                <th>isim1 </th>
+                <td>1,1 </td>
+                <td>1,2 </td>
+                <td>1,3 </td>
+                <td>1,4 </td>
+            </tr>
+            <tr>
+                <th>isim2 </th>
+                <td>2,1 </td>
+                <td>2,2 </td>
+                <td>2,3 </td>
+                <td>2,4 </td>
+            </tr>
+            <tr>
+                <th>isim3 </th>
+                <td>3,1 </td>
+                <td>3,2 </td>
+                <td>3,3 </td>
+                <td>3,4 </td>
+            </tr>
+            <tr>
+                <th>isim4 </th>
+                <td>4,1 </td>
+                <td>4,2 </td>
+                <td>4,3 </td>
+                <td>4,4 </td>
+            </tr>
+            <tr>
+                <th>isim5 </th>
+                <td>5,1 </td>
+                <td>5,2 </td>
+                <td>5,3 </td>
+                <td>5,4 </td>
+            </tr>
 
-    </table>
+        </table>
+    </div>
+
+    <ul style="list-style-type: circle;">
+        <li>Ali</li>
+        <li>Ahmet</li>
+        <li>Ayşe</li>
+        <li>Kenan</li>
+        <li>Hasan</li>
+    </ul>
+
+    <div id="noborder">
+        <table style="width:100%;">
+            <td>
+                <div class="sayililar">
+                    <ol type="1" start="1">
+                        <li>Ali</li>
+                        <li>Ahmet</li>
+                        <li>Ayşe</li>
+                        <li>Kenan</li>
+                        <li>Hasan</li>
+                    </ol>
+                </div>
+            </td>
+            <td>
+                <div class="sayililar">
+                    <ol type="I" start="1">
+                        <li>Ali</li>
+                        <li>Ahmet</li>
+                        <li>Ayşe</li>
+                        <li>Kenan</li>
+                        <li>Hasan</li>
+                    </ol>
+                </div>
+            </td>
+        </table>
+    </div>
+    <form action="verilerigonder.html" method="GET">
+        <fieldset>
+            <legend>İSİM</legend>
+            <label for="koin">Koin Adı:</label>
+            <input list="coinismi" id="koin" name="isim"> <br> <br>
+            <input type="radio" name="koinler" value="theta" id="theta">
+            <label for="theta">THETA</label>
+            <input type="radio" name="koinler" value="swipe" id="sxp">
+            <label for="sxp">SWIPE</label>
+        </fieldset> <br>
+        <select name="Arabalar" id="arabalar">
+            <option value="Honda">HONDA</option>
+            <option value="Audi">AUDI</option>
+            <option value="Mercedes">MERCEDES</option>
+        </select> <br><br>
+        <label for="datalist">Bu bir Datalisttir:</label>
+        <input list="coinismi" name="secilen" id="datalist">
+        <datalist id="coinismi">
+            <option value="algo">algo</option>
+            <option value="atom">atom</option>
+            <option value="trx">trx</option>
+        </datalist> <br><br>
+        <label for="adres">Adresinizi Giriniz:</label><br>
+        <textarea name="adres" id="adres" cols="30" rows="5"></textarea><br>
+        <label for="onay">Adresimi doğru girdim.</label>
+        <input type="checkbox" name="checkbox" id="onay"> <br><br>
+        <input type="submit" value="Verileri ilet">
+        <input type="reset" value="Formu Sil">
+        <input type="button" value="Merhaba Yazdır" onclick="alert('Merhaba')">
+
+    </form> <br><br>
+    <a  href="1elements.html"><input style="height:50px ; background-color: rgb(61, 4, 4); color: rgb(236, 247, 93);" type="button" value="Bu Buton Seni INPUT Sayfasına Götürür."></a>
+
+
+    <a href="#burasi">
+        <p
+            style="float: right; display: inline-block ; color: white; font-size: 15px; text-align: right ; background-color: blue;">
+            UP!</p><img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/SF_-_Socialistiske_Folkeparti.svg"
+            alt="Başa Dön" style="width: 10%; float: right; background-color: blue;">
+    </a>
 </body>
 
 </html>
