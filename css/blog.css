@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.05rem;
+}
+
+.header {
+    background-color: #59BFBB;
+    padding: 1em;
+    color: white;
+}
+
+.header-title {
+    text-align: center;
+    margin: 0;
+}
+
+.section {
+    padding: 1rem 2rem;
+}
+
+.section-hakkimda {
+    background-color: #eaf5fa;
+}
+
+.section-content {
+    margin: 1rem;
+}
+
+.section-accent {
+    background-color: #adf0ed;
+}
+
+.section-projeler {
+    background-color: #64e0dcd0;
+}
+
+.section-iletisim {
+    background-color: #53ceca;
+}
+
+footer {
+    background-color: #3c9b98;
+}
+
+.button {
+    background-color: #eaf5fa;
+    border: 1px solid #3a5461;
+    ;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    padding: .5em 1em;
+    border-radius: 0.4em;
+}
+
+.button:hover, .default:focus {
+    background-color: #acc6d1;
+    box-shadow: inset 0px 0px 4px 0px rgb(0, 0, 0);
+}
+
+.section-yetenek, .section-projelerim {
+    list-style: none;
+    margin: 0;
+}
+
+.section-projelerim li {
+    margin-bottom: 2rem;
+}
+
+.section-projelerim li:last-child {
+    margin: 0;
+}
+
+.input {
+    border: 1px solid #ccc;
+    outline: none;
+    padding: .5em;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: none;
+    margin-bottom: 2em;
+}
+
+#textarea {
+    margin-bottom: 0.2em;
+}
+
+.input:focus {
+    border-color: 1px solid#3c9b98;
+    box-shadow: 0 0 5px 2px #3c9b98;
+}
