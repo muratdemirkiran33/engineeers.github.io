@@ -5,10 +5,15 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: murat;
+  src: url(/fonts/321impact.ttf) format("truetype");
+}
+
 .fullscreen-header {
   color: black;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 1.3rem;
+  font-family: murat;
+  font-size: 1.5rem;
   letter-spacing: 0.1rem;
   height: 100vh;
   width: 100vw;
@@ -51,8 +56,13 @@
   z-index: -1;
 }
 
+.header-title {
+  font-size: 2.2em;
+  letter-spacing: .3rem;
+}
+
 .header-subtitle {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
   font-style: italic;
 }
 
